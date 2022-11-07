@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Input</title>
+</head>
+  <body>
+    <form>
+        <fieldset class="Oi">
+            <legend>Общая информация</legend>
+            <div>
+               <label for="text">Фамилия</label>
+               <input type="text" name="name" placeholder="Иванов">
+            </div>
+            <div>
+                <label for="text">Имя</label>
+                <input type="text" name="name" placeholder="Иван">
+             </div>
+             <div>
+                <label for="text">Отчество</label>
+                <input type="text" name="name" placeholder="Иванович">
+             </div>
+             <div>
+                <label for="email">email</label>
+                <input type="email" name="email" placeholder="mail@mail.ru">
+             </div>
+        </fieldset>
+        <fieldset class="Sex">
+            <legend>Пол</legend>
+            <div class="choice">
+                <input type="radio" id="sexChoice1" name="sex" value="М">
+                <label for="sexChoice1">М</label>
+                <input type="radio" id="sexChoice2" name="sex" value="Ж">
+                <label for="sexChoice2">Ж</label>
+            </div>
+        </fieldset>
+        <fieldset class="Hobby">
+            <legend>Хобби</legend>
+            <div class="choice">
+                <input type="checkbox" id="Choice1" name="hobby" value="drawing">
+                <label for="Choice1">Рисование</label>
+                <input type="checkbox" id="Choice2" name="hobby" value="reading">
+                <label for="Choice2">Чтение</label>
+                <input type="checkbox" id="Choice3" name="hobby" value="knitting">
+                <label for="Choice3">Вязание</label>
+                <input type="checkbox" id="Choice4" name="hobby" value="cooking">
+                <label for="Choice4">Кулинария</label>
+            </div>
+        </fieldset>
+        <ul class="button">
+            <li><button type="submit">Отправить</button></li>
+            <li><button type="reset">Очистить</button></li>
+        </ul>
+    </form>
+    <table>
+  <tr>
+    <th rowspan="2">Автомобиль</th>
+    <th colspan="5">Расходник</th>
+  </tr>
+  <tr>
+    <th>Масло моторное</th>
+    <th>Фильтр масленный</th>
+    <th>Фильтр воздушный</th>
+    <th>Фильтр салонный</th>
+    <th>Всего</th>
+  </tr>
+  <tr>
+    <td>Corolla</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Mark II</td>
+    <td>1</td>
+    <td>3</td>
+    <td>2</td>
+    <td>0</td>
+    <td>6</td>
+  </tr><tr>
+    <td>Prius</td>
+    <td>1</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>3</td>
+  </tr><tr>
+    <td>Hiace</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+  </tr><tr>
+    <td>Итого:</td>
+    <td>4</td>
+    <td>5</td>
+    <td>2</td>
+    <td>2</td>
+    <td>13</td>
+  </tr>
+</table>
+<iframe frameborder="0" style="display: flex;margin: auto;border:none;width:50%;height:450px;" width="100%" height="450" src="https://music.yandex.ru/iframe/#playlist/music-blog/1175">Слушайте <a href='https://music.yandex.ru/users/music-blog/playlists/1175'>Громкие новинки месяца</a> — <a href='https://music.yandex.ru/users/music-blog'>Яндекс Музыка</a> на Яндекс Музыке</iframe>
+</body>
+</html>

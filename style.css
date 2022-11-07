@@ -1,0 +1,104 @@
+body{
+    background-image: url(https://celes.club/uploads/posts/2022-06/1654279305_48-celes-club-p-gradientnie-oboi-krasivie-52.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    margin-bottom: 20px;
+}
+label{
+    width: 80px;
+    display: inline-block;
+}
+fieldset{
+    width: 50%;
+    margin: auto;
+}
+.choice{
+    margin-bottom: auto;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 20px;
+    overflow: hidden;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+td:hover{
+    background: #ff8052
+}
+th:hover{
+    color: #ffffff;
+    background: #d84315;
+}
+
+input[type="text"] {
+color: orange;
+  }
+input:hover[name="name"]{
+    background-color: rgb(147, 197, 197);
+    color: rgb(230, 176, 176);
+}
+input:hover[name="email"]{
+    background-color: rgb(147, 197, 197);
+    color: rgb(230, 176, 176);
+}
+input{
+    border-radius: 7px;
+    border-width: 0.02px;
+    padding: 5px 5px;
+}
+ul.button{
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+ul.button li{
+    display: inline-flex;
+    justify-content: center;
+    margin-right: 20px;
+    width: 300px;
+    height: 50px;
+}
+.Oi{
+    margin-bottom: 20px;
+}
+.Sex{
+    margin-bottom: 21px;
+}
+.Hobby{
+    margin-bottom: 20px;
+}
+button[type="submit"]{
+    width: 300%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #858ad8;
+    border-radius: 7px;
+    border-width: 0.02px;
+    cursor: pointer;
+}
+button[type="reset"]{
+    width: 300%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #858ad8;
+    border-radius: 7px;
+    border-width: 0.02px;
+    cursor: pointer;
+}
+button:hover[type="submit"]{
+    background: #da9d87
+}
+button:hover[type="reset"]{
+    background: #da9d87
+}
